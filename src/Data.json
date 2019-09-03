@@ -1,0 +1,36 @@
+{
+    "fields" : [
+        {
+          "placeholder" : "Name",
+          "name" : "Name",
+          "input_type" : "text",
+          "required" : false 
+        },
+        {
+          "placeholder" : "Age",
+          "name" : "Age",
+          "input_type" : "text",
+          "required" : false 
+        },
+        {
+          "placeholder" : "Gender",
+          "name" : "Gender",
+          "input_type" : "radiobutton",
+          "required" : false,
+          "values" : ["Male", "Female"]
+        },
+        {
+          "placeholder" : "Address",
+          "name" : "Address",
+          "input_type" : "textarea",
+          "required" : false 
+        },
+        {
+          "placeholder" : "State",
+          "name" : "State",
+          "input_type" : "dropdown",
+          "required" : false,
+          "values" : ["NSW", "Queensland", "Victoria"]
+        }
+    ]
+  }

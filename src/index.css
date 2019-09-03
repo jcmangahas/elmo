@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+form {
+  width:100%;
+  display: flex;
+  min-height: 700px;
+}
+
+.document{
+  margin: 5px;
+  width: 47%;
+  border: 1px solid #DCDCDC;
+  padding: 10px;
+  box-shadow: 2px 2px #DCDCDC;
+}
+
+#documentparent{
+  width:100%;
+  display: flex;
+  min-height: 700px;
+}
+
+button {
+  background: #E0E0E0;
+  border-radius: 6px;
+  color: black;
+  height: 25px;
+  margin: 0px 3px 10px 0;
+  text-decoration: none;
+  font-size: 14px;
+  cursor:pointer;
+}
+
+.primarybutton {
+  background: #104E8B;
+  color: white;
+}
+
+.buttonArea{
+  width:100%
+}
+
+tbody tr{
+  height: 30px;
+}
+
+tbody td{
+  width: 250px;
+}
+
+input{
+  height: 20px;
+}
+
+label{
+  font-size: 14px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
